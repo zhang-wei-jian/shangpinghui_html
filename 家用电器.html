@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #dq{
+            min-width:1200px;
+        }
+        
+       #dq ul,
+        li,
+        dd {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        #dq header{
+            width:1200px;
+            margin:0 auto;
+            /* border:1px solid red; */
+            height:50px;
+            line-height: 50px;;
+        }
+        #dq header::after{
+            content:'';
+            clear: both;
+            display: block;
+        }
+        #dq header h3{
+            float:left;
+            color: #cb026c;
+            margin:0;
+        }
+        #dq header li{
+            float:right;
+            
+        }
+        #dq header li a{
+            font-size:12px;
+            border-right:1px solid #6677b0;
+            padding:0 6px;
+            color:#666666;
+            text-decoration: none;
+        }
+        
+        /* 第二部分 */
+        #dq div{
+            border-top:2px solid #cb0226;
+            width:1200px;
+            margin:0 auto;
+            
+        }
+        #dq div ul{
+            box-sizing: border-box;
+            font-size:0;
+        }
+        #dq div img{
+            width:100%;
+            border:1px solid #e2e2e2;
+            
+        }
+        #dq div ul::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        #dq div ul li,#dq div ul li dl{
+            float:left;
+            /* border:1px solid pink; */
+        }
+        #dq div ul li,#dq div ul li dl dd{
+            border-bottom:1px solid #e4e4e4;
+        }
+        #dq div li:first-of-type{
+            width:210px;
+            background-color: #f7f7f7;
+            
+        }
+        #dq div li:first-of-type dl{
+            width:83px;
+            
+            text-align: center;
+            margin:10px 10px;
+            font-size:12px;
+            padding:15px 0;
+        }
+
+        #dq div li:nth-of-type(2){
+            width:330px;
+            height:360px;
+            position:relative;
+        }
+        #dq div li:nth-of-type(2) a img{
+            position:absolute; 
+            top:0;
+            width:330px;
+            
+        }
+        #dq div li:nth-of-type(3){
+            width:220px;
+            height:180px;
+        }
+       #dq div li:nth-of-type(4){
+            width:220px;
+            height:360px;
+            
+        }
+        #dq div li:nth-of-type(5){
+            width:220px;
+            height:180px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div id="dq">
+        <header>
+            <h3>家用电器</h3>
+            <ul>
+                <li><a href="#">热门</a></li>
+                <li><a href="#">大家电</a></li>
+                <li><a href="#">生活电器</a></li>
+                <li><a href="#">厨房电器</a></li>
+                <li><a href="#">应季电器</a></li>
+                <li><a href="#">空气/净水</a></li>
+                <li><a href="#">高端电器</a></li>
+
+            </ul>
+        </header>
+        <!-- 第二部分 -->
+            <div>
+                <ul>
+                    <li>
+                        <dl>
+                            <dd>节能补贴</dd>
+                            <dd>空气净化器</dd>
+                            <dd>滚筒洗衣机</dd>
+                        </dl>
+                        <dl>
+                            <dd>4K电视</dd>
+                            <dd>IH电饭锅</dd>
+                            <dd>电热水器</dd>
+                        </dl>
+                        <img src="./images/home/floor-1-1.png" alt="">
+                    </li>
+                   <li><a href="" id="dq1"><img src="./images/home/floor-1-b01.png" alt=""></a>
+                    <a href="" id="dq2"><img src="./images/home/floor-1-b02.png" alt=""></a>
+                    <a href="" id="dq3"><img src="./images/home/floor-1-b03.png" alt=""></a></li>
+                    <li><img src="./images/home/floor-1-2.png" alt="">
+                        <img src="./images/home/floor-1-3.png" alt="">
+                    </li>
+                    <li><img src="./images/home/floor-1-4.png" alt=""></li>
+                    <li><img src="./images/home/floor-1-5.png" alt="">
+                        <img src="./images/home/floor-1-6.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        
+    </div>
+    <div id="dq">
+        <header>
+            <h3>家用电器</h3>
+            <ul>
+                <li><a href="#">热门</a></li>
+                <li><a href="#">大家电</a></li>
+                <li><a href="#">生活电器</a></li>
+                <li><a href="#">厨房电器</a></li>
+                <li><a href="#">应季电器</a></li>
+                <li><a href="#">空气/净水</a></li>
+                <li><a href="#">高端电器</a></li>
+
+            </ul>
+        </header>
+        <!-- 第二部分 -->
+            <div>
+                <ul>
+                    <li>
+                        <dl>
+                            <dd>节能补贴</dd>
+                            <dd>空气净化器</dd>
+                            <dd>滚筒洗衣机</dd>
+                        </dl>
+                        <dl>
+                            <dd>4K电视</dd>
+                            <dd>IH电饭锅</dd>
+                            <dd>电热水器</dd>
+                        </dl>
+                        <img src="./images/home/floor-1-1.png" alt="">
+                    </li>
+                   <li><a href="" id="dq1"><img src="./images/home/floor-1-b01.png" alt=""></a>
+                    <a href="" id="dq2"><img src="./images/home/floor-1-b02.png" alt=""></a>
+                    <a href="" id="dq3"><img src="./images/home/floor-1-b03.png" alt=""></a></li>
+                    <li><img src="./images/home/floor-1-2.png" alt="">
+                        <img src="./images/home/floor-1-3.png" alt="">
+                    </li>
+                    <li><img src="./images/home/floor-1-4.png" alt=""></li>
+                    <li><img src="./images/home/floor-1-5.png" alt="">
+                        <img src="./images/home/floor-1-6.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        
+    </div>
+</body>
+
+</html>

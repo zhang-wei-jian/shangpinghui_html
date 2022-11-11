@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .clearfix::after{
+            display: block;
+            content:'';
+            clear:both;
+           
+        }
+        #tuijian{
+            /* border:1px solid red; */
+            list-style-type: none;
+            margin:0;
+            padding:0;
+            min-width:1200px;
+        }
+        #tuijian li{
+            float:left;
+            width:250px;
+        }
+        #tuijian ul{
+            margin:0 auto;
+        }
+        #tuijian li:first-of-type{
+            width:200px;
+            text-align:center;
+            background-color: #5c5251;
+            height:123px;
+            padding:20px 0;
+            
+            
+
+            
+        }
+        #tuijian li:first-of-type img{
+            vertical-align: middle;
+            
+        }
+        #tuijian li:first-of-type h3{
+            color:#fff;
+        }
+        #tuijian li img:hover{
+            opacity: 0.7;
+            transition-duration: 1s;
+        }
+    </style>
+</head>
+<body>
+    <ul id="tuijian" class="clearfix">
+        <li>
+            <img src="./images/home/clock.png" alt="">
+            <h3>今日推荐</h3>
+        </li>
+        <li>
+            <img src="./images/home/today01.png" alt="">
+        </li>
+        <li>
+            <img src="./images/home/today02.png" alt="">
+        </li>
+        <li>
+            <img src="./images/home/today03.png" alt="">
+        </li>
+        <li>
+            <img src="./images/home/today04.png" alt="">
+        </li>
+
+    </ul>
+</body>
+</html>

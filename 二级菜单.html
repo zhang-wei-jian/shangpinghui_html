@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #caidan dl dd a {
+            color: #747674;
+            text-decoration: none;
+        }
+       
+        #caidan dl{
+            border:1px solid red;
+            width:210px;
+            margin:0;
+            padding:0;
+            position:relative;
+            float: left;
+        }
+        #caidan dl dd{
+            margin:0;
+            height:30px;
+        }
+        #caidan dl ul{
+            z-index: 999999999;
+            display: none;
+            list-style-type: none;
+            padding:0;
+            margin:0;
+            position:absolute;
+            top:0;
+            left:210px;
+            border:1px solid red;
+            width:730px;
+            height:454px;   
+            background-color: #fafafa;
+        }
+        #caidan dl ul li{
+            float:left;
+        }
+        #caidan dl dd:hover+ul{
+            display: block;
+
+        }
+        /* 第二部分 */
+        figure{
+    margin:0;
+    position: relative;
+    border:1px solid pink;
+    height:454px;
+    width:730px;
+    float:left;
+    
+}
+figure a{
+    width:730px;
+    position: absolute;
+    top:0px;
+    left:0;
+}
+figure a:nth-of-type(3){
+    z-index: 999;
+}
+
+figure a:target{
+    z-index: 9999;
+    
+}
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <div id="caidan">
+        <dl>
+            <dd><a href="#">图书、音像、数字商品</a></dd>
+            <ul>
+                <li><a href="#">电子书</a></li>
+                <li><a href="#">婚恋/两性</a></li>
+                <li><a href="#">文学</a></li>
+                <li><a href="#">经管</a></li>
+                <li><a href="#">畅销VIP</a></li>
+            </ul>
+
+            <dd><a href="#">家具电器</a></dd>
+            <ul>
+                <li><a href="#">电子书</a></li>
+                <li><a href="#">免费</a></li>
+                <li><a href="#">小说</a></li>
+                <li><a href="#">励志与成功</a></li>
+                <li><a href="#">婚恋/两性</a></li>
+                <li><a href="#">文学</a></li>
+                <li><a href="#">经管</a></li>
+                <li><a href="#">畅销VIP</a></li>
+                <h6><a href="#">数字音乐</a></h6>
+                <li><a href="#">通俗流行</a></li>
+                <li><a href="#">古典音乐</a></li>
+                <li><a href="#">爵士音乐</a></li>
+                <li><a href="#">乡村音乐</a></li>
+                <li><a href="#">有声读物</a></li>
+                <li><a href="#">摇滚说唱</a></li>
+            </ul>
+
+            <dd><a href="#t1">手机、数码、充值</a></dd>
+            <dd><a href="#t2">电脑、办公</a></dd>
+            <dd><a href="#t3">家具、家居、家装、厨具</a></dd>
+            <dd><a href="#t4">服饰内衣</a></dd>
+            <dd><a href="#t1">个性化妆</a></dd>
+            <dd><a href="#t2">运动健康</a></dd>
+            <dd><a href="#t3">汽车用品</a></dd>
+            <dd><a href="#t4">彩票、旅行</a></dd>
+            <dd><a href="#t3">理财、众筹</a></dd>
+            <dd><a href="#t1">母婴、玩具</a></dd>
+            <dd><a href="#t2">箱包</a></dd>
+            <dd><a href="#t3">运动户外</a></dd>
+            <dd><a href="#t4">箱包</a></dd>
+
+
+        </dl>
+        <!-- 第二部分 -->
+        <figure>
+            
+            
+
+            <a id="t1">
+                <img src="./images/home/banner1.jpg" alt=""></a>
+            <a id="t2">
+                <img src="./images/home/banner2.jpg" alt="">
+            </a>
+            <a id="t3">
+                <img src="./images/home/banner3.jpg" alt="">
+            </a>
+            <a id="t4">
+                <img src="./images/home/banner4.jpg" alt="">
+            </a>
+
+
+
+
+          
+            <!-- <input type="radio" name="bt">
+            <a href="#t1"></a>
+            <input type="radio" name="bt">
+            <a href="#t2"></a>
+            <input type="radio" name="bt">
+            <a href="#t3"></a>
+            <input type="radio" name="bt">
+            <a href="#t4"></a> -->
+             
+         
+        </figure>
+
+    </div>
+
+</body>
+
+</html>

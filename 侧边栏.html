@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        aside {
+            position: fixed;
+            right: -5px;
+            top: 0;
+            height: 100%;
+            width: 300px;
+            border: 5px solid #7b6e6e;
+            transition-duration: .5s;
+          
+            z-index: 99999;
+
+
+
+        }
+
+        aside header {
+            
+            width: 100%;
+            height: 100%;
+            background-color: #ffffe4;
+        }
+
+        aside label {
+            display: inline-block;
+            height: 35px;
+            width: 35px;
+            border: 1px solid #7b6e6e;
+            background-color: #7b6e6e;
+            position: absolute;
+            top: -5px;
+            left: -37px;
+        }
+
+        aside label img {
+            position: absolute;
+            height: 100%;
+        }
+
+        input:checked+aside {
+            transition-duration: .6s;
+            transition-property: all;
+            right: -306px;
+        }
+        aside input{
+            display: none;
+        }
+        input+aside label img:nth-of-type(1) {
+            display: none;
+        }
+
+        input:checked+aside img:nth-of-type(1) {
+            display: block;
+        }
+
+        input:checked+aside img:nth-of-type(2) {
+            display: none;
+        }
+
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            left: -35px;
+            top: 50%;
+            transform: translate(0, -50%);
+            z-index: -2;
+
+        }
+
+        aside ul li {
+            width: 35px;
+            height: 35px;
+            border-radius: 3px;
+            ;
+            /* border:1px solid #ff7c6e; */
+            position: relative;
+            background-color: #7b6e6e;
+            background-image: url(./images/toolbars.png);
+            font-size: 12px;
+            margin-bottom: 1px;
+            text-align: center;
+            overflow: hidden;
+
+        }
+
+        aside ul li div {
+            /* border:1px solid pink; */
+            border-radius: 3px 0 0 3px;
+            position: absolute;
+            left: 35px;
+            height: 35px;
+            width: 62px;
+            line-height: 35px;
+            z-index: -91;
+            color: #fff;
+            transition-duration: .5s;
+
+        }
+
+        aside ul li:hover {
+            overflow: visible;
+        }
+
+        aside ul li:hover div {
+            left: -62px;
+            transition-duration: .5s;
+            width: 64px;
+            background-color: rgb(200, 22, 25);
+        }
+
+        aside ul li:hover {
+            background-color: rgb(200, 22, 25);
+
+        }
+
+        aside ul:nth-of-type(2) {
+            top: 100%;
+            transform: translate(0, -112%);
+            margin-bottom: 18px;
+
+        }
+        aside ul li:nth-of-type(1){
+            background-position: -88px -175px;
+        }
+        aside ul li:nth-of-type(2){
+            background-position: -50px -0px;
+        }
+        aside ul li:nth-of-type(3){
+            background-position: -50px -50px;
+        }
+        aside ul li:nth-of-type(4){
+            background-position: -50px -100px;
+        }
+        aside ul li:nth-of-type(5){
+            background-position: -190px -150px;
+        }
+        aside ul li:nth-of-type(6){
+            background-position: -50px -150px;
+        }
+        aside ul:nth-of-type(2) li:nth-of-type(1){
+            background-position: -50px -250px;
+        }
+    </style>
+</head>
+
+<body>
+    b<br>  <p>图片：中国网络文明大会这些亮点别错过
+        中国网络文明大会这些亮点别错过
+        2022中国网络文明大会于8月28日至29日在天津国家会展中心举办，今年的中国网络文明大会又有哪些安排呢，快来看看吧。 详细 >
+        新华网昨天14:08
+        资讯 
+        2022年中国网络文明大会将在津启动 这些亮点别错过
+        央视网消息（记者 陈诗文）：如今互联网已经成为人类生活的重要组成部分，如何打造一个清朗的网络空间，是所有人的课题。一起来看2022年中国网络文明大会准备了哪些内容。弘...
+        中国青年网昨天13:39
+        倒计时一天!2022中国网络文明大会亮点抢先看
+        2022中国网络文明大会亮点抢先看 新华网北京8月27日电(汪亚)2022中国网络文明大会将于8月28日至29日在天津国家会展中心举办。大会由中央网信办、中央文明办、中共天津市委、...
+        南方网昨天16:23
+        
+        2022年中国网络文明大会即将花落津门,亮点多多先睹...
+        中新网北京8月27日电(刘越)2022年中国网络文明大会将于8月28日至29日在天津举办。8月23日，国新办举行新闻发布会介绍了有关情</p>  <p>图片：中国网络文明大会这些亮点别错过
+            中国网络文明大会这些亮点别错过
+            2022中国网络文明大会于8月28日至29日在天津国家会展中心举办，今年的中国网络文明大会又有哪些安排呢，快来看看吧。 详细 >
+            新华网昨天14:08
+            资讯 
+            2022年中国网络文明大会将在津启动 这些亮点别错过
+            央视网消息（记者 陈诗文）：如今互联网已经成为人类生活的重要组成部分，如何打造一个清朗的网络空间，是所有人的课题。一起来看2022年中国网络文明大会准备了哪些内容。弘...
+            中国青年网昨天13:39
+            倒计时一天!2022中国网络文明大会亮点抢先看
+            2022中国网络文明大会亮点抢先看 新华网北京8月27日电(汪亚)2022中国网络文明大会将于8月28日至29日在天津国家会展中心举办。大会由中央网信办、中央文明办、中共天津市委、...
+            南方网昨天16:23
+            
+            2022年中国网络文明大会即将花落津门,亮点多多先睹...
+            中新网北京8月27日电(刘越)2022年中国网络文明大会将于8月28日至29日在天津举办。8月23日，国新办举行新闻发布会介绍了有关情</p>  <p>图片：中国网络文明大会这些亮点别错过
+                中国网络文明大会这些亮点别错过
+                2022中国网络文明大会于8月28日至29日在天津国家会展中心举办，今年的中国网络文明大会又有哪些安排呢，快来看看吧。 详细 >
+                新华网昨天14:08
+                资讯 
+                2022年中国网络文明大会将在津启动 这些亮点别错过
+                央视网消息（记者 陈诗文）：如今互联网已经成为人类生活的重要组成部分，如何打造一个清朗的网络空间，是所有人的课题。一起来看2022年中国网络文明大会准备了哪些内容。弘...
+                中国青年网昨天13:39
+                倒计时一天!2022中国网络文明大会亮点抢先看
+                2022中国网络文明大会亮点抢先看 新华网北京8月27日电(汪亚)2022中国网络文明大会将于8月28日至29日在天津国家会展中心举办。大会由中央网信办、中央文明办、中共天津市委、...
+                南方网昨天16:23
+                
+                2022年中国网络文明大会即将花落津门,亮点多多先睹...
+                中新网北京8月27日电(刘越)2022年中国网络文明大会将于8月28日至29日在天津举办。8月23日，国新办举行新闻发布会介绍了有关情</p>  <p>图片：中国网络文明大会这些亮点别错过
+                    中国网络文明大会这些亮点别错过
+                    2022中国网络文明大会于8月28日至29日在天津国家会展中心举办，今年的中国网络文明大会又有哪些安排呢，快来看看吧。 详细 >
+                    新华网昨天14:08
+                    资讯 
+                    2022年中国网络文明大会将在津启动 这些亮点别错过
+                    央视网消息（记者 陈诗文）：如今互联网已经成为人类生活的重要组成部分，如何打造一个清朗的网络空间，是所有人的课题。一起来看2022年中国网络文明大会准备了哪些内容。弘...
+                    中国青年网昨天13:39
+                    倒计时一天!2022中国网络文明大会亮点抢先看
+                    2022中国网络文明大会亮点抢先看 新华网北京8月27日电(汪亚)2022中国网络文明大会将于8月28日至29日在天津国家会展中心举办。大会由中央网信办、中央文明办、中共天津市委、...
+                    南方网昨天16:23
+                    
+                    2022年中国网络文明大会即将花落津门,亮点多多先睹...
+                    中新网北京8月27日电(刘越)2022年中国网络文明大会将于8月28日至29日在天津举办。8月23日，国新办举行新闻发布会介绍了有关情</p>  <p>图片：中国网络文明大会这些亮点别错过
+                        中国网络文明大会这些亮点别错过
+                        2022中国网络文明大会于8月28日至29日在天津国家会展中心举办，今年的中国网络文明大会又有哪些安排呢，快来看看吧。 详细 >
+                        新华网昨天14:08
+                        资讯 
+                        2022年中国网络文明大会将在津启动 这些亮点别错过
+                        央视网消息（记者 陈诗文）：如今互联网已经成为人类生活的重要组成部分，如何打造一个清朗的网络空间，是所有人的课题。一起来看2022年中国网络文明大会准备了哪些内容。弘...
+                        中国青年网昨天13:39
+                        倒计时一天!2022中国网络文明大会亮点抢先看
+                        2022中国网络文明大会亮点抢先看 新华网北京8月27日电(汪亚)2022中国网络文明大会将于8月28日至29日在天津国家会展中心举办。大会由中央网信办、中央文明办、中共天津市委、...
+                        南方网昨天16:23
+                        
+                        2022年中国网络文明大会即将花落津门,亮点多多先睹...
+                        中新网北京8月27日电(刘越)2022年中国网络文明大会将于8月28日至29日在天津举办。8月23日，国新办举行新闻发布会介绍了有关情</p>
+    <p>图片：中国网络文明大会这些亮点别错过
+        中国网络文明大会这些亮点别错过
+        2022中国网络文明大会于8月28日至29日在天津国家会展中心举办，今年的中国网络文明大会又有哪些安排呢，快来看看吧。 详细 >
+        新华网昨天14:08
+        资讯 
+        2022年中国网络文明大会将在津启动 这些亮点别错过
+        央视网消息（记者 陈诗文）：如今互联网已经成为人类生活的重要组成部分，如何打造一个清朗的网络空间，是所有人的课题。一起来看2022年中国网络文明大会准备了哪些内容。弘...
+        中国青年网昨天13:39
+        倒计时一天!2022中国网络文明大会亮点抢先看
+        2022中国网络文明大会亮点抢先看 新华网北京8月27日电(汪亚)2022中国网络文明大会将于8月28日至29日在天津国家会展中心举办。大会由中央网信办、中央文明办、中共天津市委、...
+        南方网昨天16:23
+        
+        2022年中国网络文明大会即将花落津门,亮点多多先睹...
+        中新网北京8月27日电(刘越)2022年中国网络文明大会将于8月28日至29日在天津举办。8月23日，国新办举行新闻发布会介绍了有关情</p>
+    <input type="checkbox" id="c1">
+    <aside>
+        <label for="c1">
+
+            <img src="./images/list.png" alt="">
+
+
+
+            <img src="./images/cross.png" alt="">
+        </label>
+        <ul>
+            <a href="#"></a>
+            <li>
+                <a href="#">
+                    <div>购物车</div>
+                </a>
+
+            </li>
+            <li>
+                <a href="#">
+                    <div>我的关注</div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div>我的足迹</div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div>我的消息</div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div>我的足迹</div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div>咨询</div>
+                </a>
+            </li>
+        </ul>
+        <header></header>
+        <ul>
+            <li>
+                <a href="#">
+                    <div>顶部</div>
+                </a>
+            </li>
+        </ul>
+    </aside>
+</body>
+
+</html>
